@@ -51,6 +51,34 @@ class Configuration
 {
     private static $defaultConfiguration;
 
+    public $accountExport;
+    public $accountExports;
+    public $activityFeed;
+    public $authorizedApps;
+    public $automations;
+    public $batchWebhooks;
+    public $batches;
+    public $campaignFolders;
+    public $campaigns;
+    public $connectedSites;
+    public $conversations;
+    public $customerJourneys;
+    public $ecommerce;
+    public $facebookAds;
+    public $fileManager;
+    public $landingPages;
+    public $lists;
+    public $ping;
+    public $reporting;
+    public $reports;
+    public $root;
+    public $searchCampaigns;
+    public $searchMembers;
+    public $Surveys;
+    public $templateFolders;
+    public $templates;
+    public $verifiedDomains;
+
     protected $apiKeys = [];
     protected $apiKeyPrefixes = [];
     protected $accessToken = '';
